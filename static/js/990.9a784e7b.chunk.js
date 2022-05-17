@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio2=self.webpackChunkportfolio2||[]).push([[990],{9990:function(o,e,t){t.r(e);t(2791);var i=t(184);e.default=function(o){return(0,i.jsx)("div",{id:"hero-section"})}}}]);
+//# sourceMappingURL=990.9a784e7b.chunk.js.map
