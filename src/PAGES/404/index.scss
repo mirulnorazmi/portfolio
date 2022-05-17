@@ -1,0 +1,30 @@
+#page_pageNotFound {
+    background-color: #232f3e;
+    height: 100vh;
+    color: #ddd;
+    width: 100%;
+    .mainbox {
+    }
+
+    .err {
+        color: #ddd;
+        // font-family: 'Nunito Sans', sans-serif;
+        font-size: 11rem;
+        font-weight: bold;
+    }
+
+    .msg {
+        text-align: center;
+        // font-family: 'Nunito Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}

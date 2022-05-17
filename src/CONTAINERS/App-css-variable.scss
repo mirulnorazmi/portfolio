@@ -1,0 +1,21 @@
+$app_color: #232f3e; // #86bc43;
+$app_color_2: #ee4d2d;
+$app_color_3: #dc004e;
+$app_color_4: #544667;
+$app_color_5: #1d3d63;
+$app_color_6: #075e54;
+$app_color_7: #05a;
+$app_color_8: #1976d2;
+$app_color_9: #f50057;
+$app_color_10: #9363aa;
+$app_color_11: #a01f62;
+$app_color_12: #8dc53b;
+$app_color_13: #57b7de;
+$app_color_14: #eb1c25;
+
+:export {
+    mainColor: $app_color;
+    secondColor: $app_color_2;
+    thirdColor: $app_color_3;
+    adminColor: $app_color_6;
+}
