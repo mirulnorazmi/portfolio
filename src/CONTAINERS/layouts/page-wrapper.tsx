@@ -51,7 +51,7 @@ export default (props: any) => {
         <meta property='og:image:alt' content={props.title} />
         <meta property='og:site_name' content={redux.app.title} />
         <meta property='fb:app_id' content='156594362596497' />
-        <meta name='twitter:site' content='@xcelearn' />
+        <meta name='twitter:site' content='@mirulnorazmi' />
         <meta
           property='og:url'
           content={`${config.CLIENT_ENDPOINT}${location.pathname}`}

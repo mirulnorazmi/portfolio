@@ -29,8 +29,7 @@ export default (props: any) => {
           ))}
         </Toolbar>
       </AppBar>
-
-      <Toolbar />
+      
     </div >
   );
 }

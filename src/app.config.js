@@ -1,13 +1,13 @@
 export const config = {
-  TITLE: 'BurnyLand',
+  TITLE: 'mirulnorazmi',
   SUBTITLE:
-    'It all started at BurnyLand',
+    'Error is a gift, without error we will not grow',
   DESCRIPTION:
-    "With us, you'll get better software.",
+    "I love programming and all about nowadays technology!",
 
   // // //old url local dev
   CLIENT_ENDPOINT: window.location.origin,
-  SERVER_ENDPOINT: 'http://localhost:3131/api',
+  SERVER_ENDPOINT: 'http://localhost:3001/api',
 
   // // //new url local dev
   // // CLIENT_WEB_ENDPOINT: window.location.origin,

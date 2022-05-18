@@ -20,8 +20,8 @@ export default (props: any) => {
   return (
     <Layout
       id='homePage'
-      title={`Home | ${redux.app.title}`}
-      desc={`hello world...`}
+      title={`${redux.app.title} | Porfolio`}
+      desc={`${redux.app.desc}`}
     >
       <Drawer />
       <Content
