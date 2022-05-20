@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Layout from '../../CONTAINERS/layouts/page-wrapper';
 import Content from '../../CONTAINERS/layouts/content-wrapper';
 import Drawer from '../../CONTAINERS/layouts/drawer/index';
+import CardMui from '../../ASSETS/default-preview.jpeg';
 
 import './index.scss';
 
