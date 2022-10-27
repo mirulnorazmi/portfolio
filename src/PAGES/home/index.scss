@@ -1,9 +1,10 @@
 #content_welcome {
   padding: 56px 0 0;
+
   #hero-section {
     background-image: url("../../ASSETS/hero-me.png");
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -15,6 +16,21 @@
         text-decoration-style: dotted;
         text-decoration-color: #007efd;
       }
+    }
+  }
+  
+  @media (max-width: 960px) {
+    #hero-section {
+      background-image: none;
+    }
+    .container-header {
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      text-align:justify;
+      padding: 15px !important;
     }
   }
 }

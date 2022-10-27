@@ -6,10 +6,12 @@ import Layout from '../../CONTAINERS/layouts/page-wrapper';
 import Content from '../../CONTAINERS/layouts/content-wrapper';
 import Drawer from '../../CONTAINERS/layouts/drawer/index';
 import CardMui from '../../ASSETS/default-preview.jpeg';
+import ScrollToTop from './component/scroll-top';
 
 import './index.scss';
 
 const HeroSection = lazy(() => import('./component/hero'));
+const Skill = lazy(() => import('./component/skill'));
 
 export default (props: any) => {
   const { t, i18n }: any = useTranslation();
@@ -28,7 +30,9 @@ export default (props: any) => {
       <Content
         className='i-x-center i-wrap'
         id='welcome'>
+        <ScrollToTop show={250} />
         <HeroSection index={props} />
+        <Skill index={props} />
       </Content>
     </Layout>
   );

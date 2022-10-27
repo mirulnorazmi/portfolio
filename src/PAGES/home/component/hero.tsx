@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography'
 export default (props: any) => {
   return (
     <div id='hero-section' className='i-x-center i-y-top column-direction'>
-      <Box component='span' className='container-header d-60 m-90 t-70'>
+      <Box component='span' className='container-header d-60 m-100 t-70'>
         <Typography variant="h2" style={{ fontWeight: 'bold', color: '#007EFD' }}>
           Hello there,
         </Typography>
