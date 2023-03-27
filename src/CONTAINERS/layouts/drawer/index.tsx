@@ -35,7 +35,7 @@ export default (props: any) => {
 
   const scroll = (id: any) => {
     const section: any = document.querySelector(`#${id}-section`);
-    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    section.scrollIntoView({ behavior: 'smooth', block: 'center' });
   };
 
   return (
@@ -50,7 +50,8 @@ export default (props: any) => {
             <div className="i-x-center i-y-center" style={{ width: '100%' }}>
               <IconButton
                 size='medium'
-                style={{ marginRight: '10px' }}>
+                style={{ marginRight: '10px' }}
+                onClick={() => scroll('hero')}>
                 <img src={LogoOnly} alt="Logo" width={25} />
               </IconButton>
               <Hidden smDown implementation='css'>
@@ -69,17 +70,35 @@ export default (props: any) => {
           ) : null}
 
           <Hidden smUp implementation='css'>
-            {/* <IconButton
+            <div className='row-direction i-x-start i-y-center' style={{ width: '100vw' }}>
+              {/* <IconButton
               size='medium'
               style={{ marginRight: '10px' }}>
               <img src={LogoOnly} alt="Logo" width={25} />
             </IconButton> */}
-            <IconButton
-              size='medium'
-              style={{ marginRight: '10px' }}
-            >
-              <MenuRoundedIcon />
-            </IconButton>
+              <IconButton
+                size='medium'
+                style={{ marginRight: '10px' }}
+              >
+                <MenuRoundedIcon />
+              </IconButton>
+              <div className="i-x-center row-direction" style={{ width: '100%' }}>
+                <Button
+                  size='medium'
+                  style={{ marginRight: '10px' }}
+                  onClick={() => scroll('hero')}>
+                  <img src={LogoOnly} alt="Logo" width={25} />
+                  <Typography style={{
+                    textTransform: 'none',
+                    marginLeft: '10px',
+                    fontWeight: 'bold',
+                    color: "#007EFD"
+                  }}>
+                    mirulnorazmi
+                  </Typography>
+                </Button>
+              </div>
+            </div>
           </Hidden>
         </Toolbar>
       </AppBar>

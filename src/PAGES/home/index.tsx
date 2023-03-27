@@ -12,6 +12,7 @@ import './index.scss';
 
 const HeroSection = lazy(() => import('./component/hero'));
 const Skill = lazy(() => import('./component/skill'));
+const AboutSection = lazy(() => import('./component/about'));
 
 export default (props: any) => {
   const { t, i18n }: any = useTranslation();
@@ -30,9 +31,10 @@ export default (props: any) => {
       <Content
         className='i-x-center i-wrap'
         id='welcome'>
-        <ScrollToTop show={250} />
+        <ScrollToTop show={150} / >
         <HeroSection index={props} />
-        <Skill index={props} />
+        <AboutSection index={props} />
+        {/* <Skill index={props} /> */}
       </Content>
     </Layout>
   );

@@ -6,7 +6,10 @@ import Typography from '@material-ui/core/Typography'
 
 export default (props: any) => {
   return (
-    <Box id='skills-section' component='span' className='d-100 m-100 t-100'>
+    <div id='about-section' className='d-100 m-100 t-100'>
+      <Typography variant="h4" style={{ fontWeight: 'bold', marginBottom : '20px' }} className='i-x-center'>
+        About
+      </Typography>
       <Typography>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex asperiores dolor voluptatum eius quasi aliquid nisi minima animi maxime error, et quod. Expedita ex ab dicta accusantium doloribus eum ipsam.
         Quod repellat enim quis ab nemo iure dolorem id, dolor, molestiae doloremque qui provident facere modi ipsam error, nisi dicta voluptates. Voluptatibus itaque magni tempore sint, suscipit nam iusto fugiat?
@@ -19,6 +22,6 @@ export default (props: any) => {
         Vero voluptatum ex, quibusdam nam eaque perferendis laborum numquam ullam porro! Eum dolore minima reiciendis aliquam reprehenderit consequatur delectus nesciunt praesentium recusandae, quos nisi fuga cumque corrupti beatae ab. Beatae!
         Accusantium ducimus illum omnis velit recusandae explicabo numquam vitae aperiam corrupti! Sed deserunt nulla dicta inventore voluptatum molestiae minima facilis. Distinctio sed corrupti consectetur ducimus amet voluptas perspiciatis iste dignissimos?
       </Typography>
-    </Box>
+    </div>
   )
 }

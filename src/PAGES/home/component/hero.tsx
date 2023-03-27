@@ -14,9 +14,10 @@ export default (props: any) => {
         <Typography variant="h2" style={{ fontWeight: 'bold' }}>
           Im <b>Mirul</b> Norazmi
         </Typography>
-        <Typography variant="body2" style={{fontSize: '16px'}}>
-          Welcome to my portfolio website, where you may learn about me, my skills, and other things. If you have any questions, please contact me via the form below. Thank you for visiting my website, enjoy!
+        <Typography variant="body2" style={{ fontSize: '16px' }}>
+          Passionate in creating innovative solutions that make a positive impact.
         </Typography>
+        <Typography>Feel free to explore my portfolio website!</Typography>
       </Box>
     </div>
   )
