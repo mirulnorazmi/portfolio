@@ -9,10 +9,12 @@ import CardMui from '../../ASSETS/default-preview.jpeg';
 import ScrollToTop from './component/scroll-top';
 
 import './index.scss';
+import { Divider } from '@material-ui/core';
 
 const HeroSection = lazy(() => import('./component/hero'));
 const Skill = lazy(() => import('./component/skill'));
 const AboutSection = lazy(() => import('./component/about'));
+const ExperienceSection = lazy(() => import('./component/experience'));
 
 export default (props: any) => {
   const { t, i18n }: any = useTranslation();
@@ -31,10 +33,12 @@ export default (props: any) => {
       <Content
         className='i-x-center i-wrap'
         id='welcome'>
-        <ScrollToTop show={150} / >
+        <ScrollToTop show={150} />
         <HeroSection index={props} />
         <AboutSection index={props} />
+        <Divider style={{ borderColor: '#E5EAF2' }} />
         {/* <Skill index={props} /> */}
+        <ExperienceSection />
       </Content>
     </Layout>
   );
